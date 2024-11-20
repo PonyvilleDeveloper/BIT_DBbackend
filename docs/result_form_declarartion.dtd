@@ -1,0 +1,5 @@
+<!ELEMENT form (text*, mark*)>
+<!ELEMENT text (#PCDATA)>
+    <!ATTLIST text name CDATA #REQUIRED>
+<!ELEMENT mark (#PCDATA)>
+    <!ATTLIST mark name CDATA #REQUIRED>

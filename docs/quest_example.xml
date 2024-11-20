@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./quest_declaration.xsd" id="0" test="">
+  <!-- Документ описывающий задание, формируется приложением оператора и хранится на сервере БД -->
+	<meta>
+	<!-- Тег с метаданными о задании -->
+		<operator id="0"><!-- Сюда ФИО оператора, создавшего задание --></operator>
+		<inspector id="0"><!-- Сюда ФИО задействованного инспектора --></inspector>
+		<date>2024-11-20<!-- Дата создания задания --></date>
+	</meta>
+  <task id="0" type="0">
+    <!-- Отдельная задача внутри задания -->
+    <object id="0" type="0">
+      <!-- Объект, который нужно проверить -->
+      <address><!-- Адрес объекта --></address>
+      <description><!-- Описание конкретного объекта --></description>
+    </object>
+    <target><!-- Цель задачи (что нужно сделать) --></target>
+    <result>
+      <!-- В этом теге размещается XML-код анкеты -->
+    </result>
+    <comment><!-- Блок для комментариев оператора --></comment>
+  </task>
+</quest>
